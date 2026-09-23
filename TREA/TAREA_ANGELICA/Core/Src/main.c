@@ -101,7 +101,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-          I2C_Lcd_Text(1, 1, "HOLA PROFE");
+          I2C_Lcd_Text(1, 1, "HOLA MUNDO");
           I2C_Lcd_chr_propio(3, 2, 1, IMAGEN1);
           I2C_Lcd_chr_propio(4, 2, 2, IMAGEN2);
 
